@@ -1,6 +1,6 @@
 # Frontend Mentor - Formulário de inscrição na newsletter com mensagem de sucesso
 
-![Prévia do design do desafio](./preview.jpg)
+![Prévia do design do desafio](./design/desktop-success-active.jpg)
 
 ## Bem-vindo! 👋
 
