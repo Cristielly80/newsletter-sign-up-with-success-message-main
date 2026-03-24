@@ -1,0 +1,253 @@
+/* RESET CSS BÁSICO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* RESET CSS BÁSICO */
+
+
+.corpo {
+  background-color: rgba(5, 0, 14, 0.714);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+
+}
+
+section {
+  background-color: white;
+  width: 800px;
+  flex-direction: row;
+  height: 500px;
+  padding: 17px;
+  border-radius: 3%;
+  display: flex;
+
+}
+
+span img {
+  width: 5%;
+}
+
+.imagem {
+  width: 45%;
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.formulario {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  line-height: 2.5;
+}
+
+h1 {
+  line-height: 3.0;
+  font-size: 50px;
+
+}
+
+.titulo {
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+span {
+  padding-right: 15px;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1.5px solid silver;
+  padding: 0px 5px;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: linear-gradient(rgba(5, 0, 14, 0.714), rgba(5, 0, 14, 0.714));
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 1.2s;
+}
+
+form {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #FF9D4D 0%, #FF5E4D 100%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+/*Tela de sucesso*/
+
+
+
+/* RESET CSS BÁSICO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+
+input,button,textarea,select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+/* RESET CSS BÁSICO */
+
+
+.corpo2 {
+  display: flex;
+  background-color: rgba(5, 0, 14, 0.714);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.section2 {
+  background-color: white;
+  color: black;
+  width: 380px;
+  height: 380px;
+  border-radius: 5%;
+  display: flex;
+  padding: 30px;
+
+}
+
+.icone {
+  width: 15%;
+}
+
+.titulo2 {
+  line-height: normal;
+  padding-bottom: 20px;
+  padding-top: 13px;
+}
+
+
+
+.button2 {
+  padding: 10px;
+}
+
+.paragrafo2 {
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+@media screen and  (max-width: 768px){
+  .section {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .formulario{
+    height: 100%;
+    width: 100%;
+  }
+
+  .imagem{
+    width: 100%;
+    height: 30%;
+  }
+
+  /* Tela sucesso*/
+
+  .section2{
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+    flex-direction: column;
+    
+  }
+  .conteudo {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: end;
+    height: 100%; /* Fundamental para ter espaço para distribuir */
+    width: 100%;
+  }
+
+  .button2{
+    margin-top: 80%; /*Trouxe o botão para baixo trazendo também o restante para o meio da tela.*/
+  }
+
+  
+}
